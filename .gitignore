@@ -31,4 +31,27 @@ go.work.sum
 
 # Editor/IDE
 # .idea/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+.terraform.lock.hcl
+
+# Python (Locust, scripts)
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# local build output and test results
+build/
+bin/
+*.zip
+results/local/
 # .vscode/
