@@ -53,4 +53,8 @@ When COVID vaccine eligibility opened in early 2021, booking sites failed across
 
 ## Status
 
-Proposal stage. See [`docs/proposal.pdf`](docs/proposal.pdf).
+Proposal and team charter submitted (Nov 23). Next: the booking core on DynamoDB.
+
+- [`docs/proposal.pdf`](docs/proposal.pdf): initial project proposal
+- [`docs/hw9-proposal-and-team-charter.pdf`](docs/hw9-proposal-and-team-charter.pdf): full proposal and team charter, with each experiment's methods and preliminary results
+- [`src/slotstore`](src/slotstore): shared slot-store interface and the in-memory double-booking race test (E2 preliminary result)
